@@ -34,7 +34,7 @@ An AI-powered **Face Recognition Attendance** and **PPE (Personal Protective Equ
 
 ## 🗂️ Project Structure
 
-<pre lang="markdown"><code> ``` 
+<pre lang="markdown"><code>
 📂 VisionGuard/
 ├── 🧠 backend/ → Flask API with MySQL (role-based auth, attendance)
 ├── 🎨 frontend/ → Streamlit UI dashboard (admin, HR, employee)
@@ -43,9 +43,7 @@ An AI-powered **Face Recognition Attendance** and **PPE (Personal Protective Equ
 ├── 📦 models/ → Trained model.onnx (tracked via Git LFS)
 ├── 🧪 test/ → Video/image test scripts & aligned face datasets
 └── 📄 README.md → Project documentation
-
-
- ``` </code></pre>
+ </code></pre>
 ---
 
 ## 🚀 Quick Start
