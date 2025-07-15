@@ -1,6 +1,7 @@
 # config.py
 import os
-
+import pymysql
+pymysql.install_as_MySQLdb()
 
 class Config:
     MYSQL_HOST = 'localhost'
