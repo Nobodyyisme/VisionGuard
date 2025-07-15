@@ -6,6 +6,11 @@ from utils.auth import role_required
 def create_auth_blueprint(mysql):
     auth_bp = Blueprint('auth_bp', __name__)
 
+    @auth_bp.route('/test', methods=['GET'])
+    def test():
+        return jsonify({"message": "✅ Auth service is working!"}), 200
+
+
     @auth_bp.route('/login', methods=['POST'])
     def login():
         data = request.get_json()
