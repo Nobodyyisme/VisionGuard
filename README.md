@@ -71,6 +71,8 @@ python extract_frames.py --video ./raw_videos/test.mp4
 cd PPE_DETECTION
 python detect.py --source 0
 
+
+
 # Generate face embeddings
 cd embeddings
 python generate_embeddings.py
