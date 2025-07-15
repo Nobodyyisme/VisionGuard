@@ -1,22 +1,12 @@
-# Flask core
 Flask==3.1.1
 flask-cors==6.0.1
 Flask-JWT-Extended==4.7.1
 Flask-MySQLdb==2.0.0
 Werkzeug==3.1.3
-
-# Server
 gunicorn
-
-# Env management
 python-dotenv
-
-# HTTP utilities
 requests==2.32.4
-
-# Database driver (used with Flask-MySQLdb)
 mysqlclient==2.2.7
-
-# Optional utilities (add if used)
-prettytable==3.16.0      # For CLI tabular DB output
-PyJWT==2.10.1            # JSON Web Token (used internally by Flask-JWT-Extended)
+bcrypt==4.3.0
+prettytable==3.16.0
+PyJWT==2.10.1
