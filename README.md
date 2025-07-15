@@ -46,6 +46,17 @@ An AI-powered **Face Recognition Attendance** and **PPE (Personal Protective Equ
  </code></pre>
 ---
 
+## 🔐 Sample Login Credentials
+
+| Role       | Username | Password   |
+|------------|----------|------------|
+| 👑 Admin    | `admin`  | `admin123` |
+| 👤 Employee | `sonal`  | `sonal123` |
+
+Use these credentials to log In.
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Clone the repo
