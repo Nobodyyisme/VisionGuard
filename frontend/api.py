@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://localhost:5000"
+BASE_URL = "https://visionguard-35xk.onrender.com"
 
 # 🔐 AUTH
 def login_user(username, password):
