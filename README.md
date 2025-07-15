@@ -34,14 +34,14 @@ An AI-powered **Face Recognition Attendance** and **PPE (Personal Protective Equ
 
 ## 🗂️ Project Structure
 
-VisionGuard/
-├── backend/ # Flask API + MySQL
-├── frontend/ # Streamlit UI
-├── embeddings/ # Face embeddings & classifier
-├── PPE_DETECTION/ # YOLOv5 PPE detection
-├── models/ # Trained model.onnx (LFS tracked)
-├── test/ # Aligned face images, video test scripts
-└── README.md
+📂 VisionGuard/
+├── 🧠 backend/           → Flask API with MySQL (role-based auth, attendance)
+├── 🎨 frontend/          → Streamlit UI dashboard (admin, HR, employee)
+├── 🧬 embeddings/        → ArcFace-based face embeddings & SVM classifier
+├── 🦺 PPE_DETECTION/     → YOLOv5 PPE detection (mask, gloves, coverall, etc.)
+├── 📦 models/            → Trained model.onnx (tracked via Git LFS)
+├── 🧪 test/              → Video/image test scripts & aligned face datasets
+└── 📄 README.md          → Project documentation
 
 
 ---
