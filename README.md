@@ -57,6 +57,29 @@ Use these credentials to log In.
 
 ---
 
+## 🖼️ Demo
+
+### 1. Project Link
+[Open VisionGuard Project](https://mainpy-3xe65g4xzu78hjtvszlcoa.streamlit.app/)
+
+### 2. PPE Detection and Metrics
+
+<div align="center">
+<table>
+<tr>
+<td>
+<img src="image_with_bounding_boxes.jpg" width="300" />
+</td>
+<td style="padding-left: 30px;">
+<img src="confusion_matrix_normalized.png" width="300" />
+</td>
+</tr>
+</table>
+</div>
+
+
+
+
 ## 🚀 Quick Start
 
 ### 1. Clone the repo
